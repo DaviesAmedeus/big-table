@@ -28,5 +28,5 @@ At BiG TABLE, we're the global hub for transformative storytelling and content c
 
 ## Authors
 
-- [Davies Amedeus](https://www.https://www.instagram.com/daviesamedeus/)
+- [Davies Amedeus](https://instagram.com/daviesamedeus/)
 
