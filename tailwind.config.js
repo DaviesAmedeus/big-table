@@ -9,7 +9,9 @@ export default {
     extend: {},
   },
   plugins: [
-    require("./resources/js/plugins/textOutline")
+    require("./resources/js/plugins/textOutline"),
+    require("./resources/js/plugins/openVariant"),
+    require("./resources/js/plugins/animationDelay")
   ],
 }
 

@@ -19,17 +19,23 @@
 
         {{-- Menu button --}}
         <div>
-            <div class="relative cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-                  </svg>
+            <div id="hamburger-menu-button" class="cursor-pointer group peer">
+              <div
+              class="relative top-0 h-1 w-8 rounded-full bg-zinc-200 transition-all group-open:top-3 group-open:rotate-45"
+            ></div>
+            <div
+              class="my-2  h-1 w-8 rounded-full bg-zinc-200 opacity-100 transition-all group-open:opacity-0"
+            ></div>
+            <div
+              class="relative top-0 mt-1 h-1 w-8 rounded-full bg-zinc-200 transition-all group-open:-top-3 group-open:-rotate-45 "
+            ></div>
             </div>
 
-            <div class="hidden absolute bg-gradient-to-r  font-bold pb-3 pt-3 text-center md:pt-0 from-green-900 via-green-600 to-green-800  w-full  left-0  justify-center gap-20  md:text-2xl md:flex  md:top-[168px]">
-                <div class="p-3 md:rounded-full  md:shadow-sm hover:bg-green-600 transition-colors ease-in ">Stories</div>
-                <div class="p-3 md:rounded-full md:shadow-sm hover:bg-green-600 transition-colors ease-in">Poetry</div>
-                <div class="p-3 md:rounded-full md:shadow-sm hover:bg-green-600 transition-colors ease-in">Videos</div>
-                <div class="p-3 md:rounded-full md:shadow-sm hover:bg-green-600 transition-colors ease-in">Others</div>
+            <div class="absolute hidden bg-gradient-to-r  font-bold py-3 text-center  from-green-900 via-green-600  to-green-800 top-[88px]  w-full  left-0  justify-center gap-20 md:text-2xl md:peer-open:flex peer-open:block md:top-[168px]">
+                <x-nav-link>Stories</x-nav-link>
+                <x-nav-link>Poetry</x-nav-link>
+                <x-nav-link>Videos</x-nav-link>
+                <x-nav-link>More</x-nav-link>   
             </div>
           
           
