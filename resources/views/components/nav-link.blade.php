@@ -1,1 +1,1 @@
-<div class="p-3 md:rounded-full  md:shadow-sm hover:bg-green-600 transition-colors ease-in md:hover:underline">{{ $slot }}</div>
+<a href="#" class="p-3 md:hover:rounded-full  md:shadow-sm hover:bg-green-600 transition-colors ease-in md:hover:underline">{{ $slot }}</a href="#">

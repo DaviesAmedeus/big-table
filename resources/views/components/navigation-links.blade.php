@@ -31,7 +31,7 @@
             ></div>
             </div>
 
-            <div class="absolute hidden bg-gradient-to-r  font-bold py-3 text-center  from-green-900 via-green-600  to-green-800 top-[88px]  w-full  left-0  justify-center gap-20 md:text-2xl md:peer-open:flex peer-open:block md:top-[168px]">
+            <div class="absolute hidden  bg-gradient-to-r  font-bold py-3 text-center  from-green-900 via-green-600  to-green-800 top-[88px]  w-full  left-0 z-10 justify-center gap-20 md:text-2xl md:peer-open:flex peer-open:block md:top-[168px]">
                 <x-nav-link>Stories</x-nav-link>
                 <x-nav-link>Poetry</x-nav-link>
                 <x-nav-link>Videos</x-nav-link>
